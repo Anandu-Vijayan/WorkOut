@@ -3,6 +3,6 @@ const {formData} = require('../controllers/dataControllers')
 
 const router = express.Router()
 
-router.route('/').post(formData)
+router.post('/data',formData)
 
 module.exports=router;
